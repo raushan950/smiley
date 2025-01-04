@@ -1,0 +1,63 @@
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow:2px 2px 10px black;
+    transition: 2s;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction:inherit;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+#inner1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+#inner2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 290px;
+}
+#inner3{
+    height: 75px;
+    width: 200px;
+    border-radius: 0 0 50% 50%;
+    background-color: brown;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+#inner1 :hover{
+    box-shadow: 0px 8px 16px black;
+
+}
+@keyframes animation{
+    from{
+        background-color:yellow;
+    }
+    to{
+        background-color: palevioletred;
+    }
+    
+
+
+}
